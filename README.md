@@ -18,14 +18,12 @@ The [open data cube](https://www.opendatacube.org/) is used in these notebooks t
 <br>  
 
 - **Loading Data**  
- 
    This notebook details retrieval of data from the  [`open data cube`](https://www.opendatacube.org/).  Topics include establishing a connection to the data cube, defining what data gets loaded, and a high level description of the `xarray` object returned by the load operation   
   
   >Link: [datacube load tutorial](notebooks/Load%20Tutorial/loading_from_data_cube.ipynb)  
 Data:  `GPM`   
 
 - **Forest Degradation using Linear Regression Analysis**  
-
    This notebook runs regression on an NDVI time series. Slope of a regressed line is used as proxy to determine vegetation gain or loss. Based on the publication *Assessment of Forest Degradation in Vietnam Using Landsat Time Series Data* by Vogelmann Et al.  
     
   > Link: [forest degredation](./Forest%20Degredation%20using%20Regression%20Analysis%20on%20NDVI/Forest_Degradation_Vogelmann_et_al.ipynb)  
@@ -33,7 +31,6 @@ Data:  `GPM`
 
 
 - **Cloud Analysis on Landsat**  
-
   This notebook compiles a series of summaries and visualizations regarding cloud coverage on landsat imagery. 
   > Link: [cloud analysis](./Cloud%20Analysis)  
   > Data: `Landsat 7 Collection 1`  
@@ -48,3 +45,15 @@ Data:  `GPM`
   > Link: [land change](./Land%20Change%20Detection%20on%20ALOS%20imagery)  
   > Data: `ALOS2 PALSAR2 SCANSAR`  
   
+- **Export Tutorials**  
+ A series of notebooks that can act as a reference for exporting xarray products as `geotiffs` or `netcdfs`  
+   
+  >Link: [export tutorials](./Export%20Tutorial)
+  >Data: `Landsat 7 collection 1`, `Landsat 8 Collection 1`  
+
+- **WASARD - Water Aquisitions through Synthetic Aperature Radar**  
+  WASARD is a transfer model that uses water classifications on optical data to train a water classifier on SAR imagery.    
+
+  >Link: [export tutorials](./WASARD%20-Water%20Classifications%20On%20SAR%20Data) 
+  >Data: `Landsat 8 collection 1`, `ALOS 2 PALSAR`  
+   
